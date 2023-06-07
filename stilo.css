@@ -141,3 +141,20 @@ section{
     display: block;
     border-radius: 20px;
 }
+@media screen and (max-width: 500px){
+    .uno{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .control{
+        width: 100%;
+    }
+    aside{
+        display: none;
+    }
+}
